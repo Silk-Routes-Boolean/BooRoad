@@ -1,3 +1,4 @@
+
 const arrayTravels = [
     {
         "id": 1,
@@ -6,6 +7,7 @@ const arrayTravels = [
         "data_fine": "2023-10-27",
         "viaggiatori": [
             {
+                "id": 1,
                 "nome": "Mario",
                 "cognome": "Rossi",
                 "email": "mario.rossi@example.com",
@@ -13,6 +15,7 @@ const arrayTravels = [
                 "codice_fiscale": "RSSMRA80A01H501X"
             },
             {
+                "id": 2,
                 "nome": "Luigi",
                 "cognome": "Verdi",
                 "email": "luigi.verdi@example.com",
@@ -20,6 +23,7 @@ const arrayTravels = [
                 "codice_fiscale": "VRDLGI85B02H502Y"
             },
             {
+                "id": 3,
                 "nome": "Giulia",
                 "cognome": "Esposito",
                 "email": "giulia.esposito@example.com",
@@ -27,6 +31,7 @@ const arrayTravels = [
                 "codice_fiscale": "ESPGIU92C03H503Z"
             },
             {
+                "id": 4,
                 "nome": "Roberto",
                 "cognome": "Colombo",
                 "email": "roberto.colombo@example.com",
@@ -34,6 +39,7 @@ const arrayTravels = [
                 "codice_fiscale": "CLMRBT88D04H504W"
             },
             {
+                "id": 5,
                 "nome": "Francesca",
                 "cognome": "Ferrari",
                 "email": "francesca.ferrari@example.com",
@@ -49,6 +55,7 @@ const arrayTravels = [
         "data_fine": "2023-11-12",
         "viaggiatori": [
             {
+                "id": 1,
                 "nome": "Anna",
                 "cognome": "Bianchi",
                 "email": "anna.bianchi@example.com",
@@ -56,6 +63,7 @@ const arrayTravels = [
                 "codice_fiscale": "BNCNNA90C03H503Z"
             },
             {
+                "id": 2,
                 "nome": "Giuseppe",
                 "cognome": "Neri",
                 "email": "giuseppe.neri@example.com",
@@ -63,6 +71,7 @@ const arrayTravels = [
                 "codice_fiscale": "NRIGPP75D04H504W"
             },
             {
+                "id": 3,
                 "nome": "Alessia",
                 "cognome": "Romano",
                 "email": "alessia.romano@example.com",
@@ -70,6 +79,7 @@ const arrayTravels = [
                 "codice_fiscale": "RMNALS91E05H505V"
             },
             {
+                "id": 4,
                 "nome": "Davide",
                 "cognome": "Ricci",
                 "email": "davide.ricci@example.com",
@@ -77,6 +87,7 @@ const arrayTravels = [
                 "codice_fiscale": "RCCDVD87F06H506U"
             },
             {
+                "id": 5,
                 "nome": "Valentina",
                 "cognome": "Bruno",
                 "email": "valentina.bruno@example.com",
@@ -92,6 +103,7 @@ const arrayTravels = [
         "data_fine": "2023-12-08",
         "viaggiatori": [
             {
+                "id": 1,
                 "nome": "Elena",
                 "cognome": "Gialli",
                 "email": "elena.gialli@example.com",
@@ -99,6 +111,7 @@ const arrayTravels = [
                 "codice_fiscale": "GLLLEN88E05H505V"
             },
             {
+                "id": 2,
                 "nome": "Marco",
                 "cognome": "Viola",
                 "email": "marco.viola@example.com",
@@ -106,6 +119,7 @@ const arrayTravels = [
                 "codice_fiscale": "VILMRC82F06H506U"
             },
             {
+                "id": 3,
                 "nome": "Stefano",
                 "cognome": "Moretti",
                 "email": "stefano.moretti@example.com",
@@ -113,6 +127,7 @@ const arrayTravels = [
                 "codice_fiscale": "MRTSFN94H08H508S"
             },
             {
+                "id": 4,
                 "nome": "Federica",
                 "cognome": "Barbieri",
                 "email": "federica.barbieri@example.com",
@@ -120,6 +135,7 @@ const arrayTravels = [
                 "codice_fiscale": "BRBFDR86I09H509R"
             },
             {
+                "id": 5,
                 "nome": "Simone",
                 "cognome": "Santoro",
                 "email": "simone.santoro@example.com",
@@ -135,6 +151,7 @@ const arrayTravels = [
         "data_fine": "2024-01-22",
         "viaggiatori": [
             {
+                "id": 1,
                 "nome": "Laura",
                 "cognome": "Azzurri",
                 "email": "laura.azzurri@example.com",
@@ -142,6 +159,7 @@ const arrayTravels = [
                 "codice_fiscale": "ZZRLRA92G07H507T"
             },
             {
+                "id": 2,
                 "nome": "Paolo",
                 "cognome": "Arancioni",
                 "email": "paolo.arancioni@example.com",
@@ -149,6 +167,7 @@ const arrayTravels = [
                 "codice_fiscale": "RCNPLA87H08H508S"
             },
             {
+                "id": 3,
                 "nome": "Martina",
                 "cognome": "Fontana",
                 "email": "martina.fontana@example.com",
@@ -156,20 +175,14 @@ const arrayTravels = [
                 "codice_fiscale": "FNTMRT90I09H509R"
             },
             {
+                "id": 4,
                 "nome": "Alessandro",
                 "cognome": "Conti",
                 "email": "alessandro.conti@example.com",
                 "cellulare": "3334455667",
                 "codice_fiscale": "CNTLSN88L10H510Q"
-            },
-            {
-                "nome": "Chiara",
-                "cognome": "Greco",
-                "email": "chiara.greco@example.com",
-                "cellulare": "3332233445",
-                "codice_fiscale": "GRCCHR93M11H511P"
-            }
-        ]
-    }]
+            }]
+    }
+]
 
 export default arrayTravels
